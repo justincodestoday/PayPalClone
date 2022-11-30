@@ -1,0 +1,105 @@
+.hyperlink-hidden-blue:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.hyperlink-hidden-white:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.theme-slide-image-0 {
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/SG/outwin-the-norm/outwin-the-norm-hero-bg-entry.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 480px;
+    padding-top: 5rem;
+}
+
+.theme-slide-image-1 {
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/MY/optimized/home/hero-sg-shop-and-pay.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 480px;
+    padding-top: 5rem;
+}
+
+.theme-slide-image-2 {
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/MY/optimized/home/hero-casual-seller-desk.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 480px;
+    padding-top: 5rem;
+}
+
+.theme-background-image-1 {
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/MY/optimized/home/editorial-new-way-to-shop-v1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.theme-background-image-2 {
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/MY/optimized/home/editorial-automated-payments.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.editorial-background {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.theme-background-size {
+    margin-top: -5rem;
+}
+
+.slide-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 1199.98px) {
+    .editorial-background {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .theme-slide-image-0 {
+        height: 480px;
+        padding-top: 4rem;
+    }
+
+    .theme-slide-image-1 {
+        height: 480px;
+        padding-top: 4rem;
+    }
+
+    .theme-slide-image-2 {
+        height: 480px;
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .editorial {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
